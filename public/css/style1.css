@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap");
+      
+      .main{
+        height: 100vh;
+      }
+      .navbar{
+        height: 8vh;
+      }
+      .sidebar {
+        position: fixed;
+        width: 180px;
+        top: 51px;
+        bottom: 0;
+        left: 0;
+        z-index: 1000;
+        display: block;
+        overflow-x: hidden;
+        overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+        background:rgb(54, 52, 52);
+        color: #ffffff;
+      }
+      .content{
+        margin-left: 240px; /* Set the same width as the sidebar */
+        height: 140vh;
+        padding-left: 16px;
+      }
+      .sidebar a{
+        color: #ffffff;
+        text-decoration: none;
+        display: block;
+        padding: 30px 30px;
+      }
+      .active {
+        background: rgb(20, 20, 20);
+        border-right: solid 7px orange;
+      }
+      .card-data{
+        border:solid 1px;
+        padding: 20px 50px;
+        color: #ffffff;
+      }
+      .card-data.afe{
+        background: teal;
+      }
+      .card-data.fid{
+        background: orange;
+      }
+      .card-data.user{
+        background: blue;
+      }
+      .card-data i{
+        font-size: 80px;
+      }
+      .card-desc{
+        font-size: 30px;
+      }
+      .card-count{
+        font-size: 25px;
+      }
+      .icon{
+        font-size: 20px;
+        padding: 10px;
+      }
+      .center{
+        text-align: center;
+      }
+      .name{
+        color: #ffffff;
+        padding-right: 30px;
+      }
+      .card-header{
+        padding: 10px;
+      }
+      ul.ruanglingkup{
+        list-style-type: decimal;
+      }
+      
+      .input-group{
+                width: 100%;
+                position: relative;
+            }
+            .fa-eye{
+                position: absolute;
+                top: 50%;
+                right: 3%;
+                transform: translateY(-50%);
+                cursor: pointer;
+            }
+            .input-group-text{
+                width: 50px;
+            }
+            .white {
+              color: white;
+              text-decoration: none;
+              font-weight: bold;
+            }
+            .black{
+              color: black;
+              text-decoration: none;
+              font-weight: bold;
+            }
